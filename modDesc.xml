@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+    <author>LS-Modcompany / kevink98</author>
+    <version>1.0.0.0</version>
+	
+    <title>
+		<en>Bugfix: Placeable Lights</en>
+		<de>Bugfix: Platzierbares Licht</de>
+    </title>
+	
+	<description>
+		<en><![CDATA[Lights are now also active at night when it rains.]]></en>
+		<de><![CDATA[Lichter sind nun Nachts auch aktiv, wenn es regnet.]]></de>
+	</description>	
+	
+	<iconFilename>PlaceableLights.dds</iconFilename>
+	<multiplayer supported="true"/>
+		
+    <extraSourceFiles>
+        <sourceFile filename="PlaceableLights.lua" />
+    </extraSourceFiles>
+</modDesc>
